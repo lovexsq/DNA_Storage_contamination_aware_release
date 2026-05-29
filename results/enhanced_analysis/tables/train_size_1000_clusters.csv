@@ -1,0 +1,16 @@
+﻿训练规模,污染率,方法,SRR,BRR,AvgED
+1000训练簇/300测试簇,0%,Read-weighted Count Beam,0.415,0.967,3.632
+1000训练簇/300测试簇,0%,Read-weighted MPNN Beam,0.916,0.995,0.595
+1000训练簇/300测试簇,0%,Read-weighted MPNN+ReadAux Beam,0.926,0.995,0.582
+1000训练簇/300测试簇,5%,Read-weighted Count Beam,0.441,0.961,4.254
+1000训练簇/300测试簇,5%,Read-weighted MPNN Beam,0.913,0.993,0.732
+1000训练簇/300测试簇,5%,Read-weighted MPNN+ReadAux Beam,0.920,0.993,0.729
+1000训练簇/300测试簇,10%,Read-weighted Count Beam,0.448,0.964,3.910
+1000训练簇/300测试簇,10%,Read-weighted MPNN Beam,0.916,0.994,0.645
+1000训练簇/300测试簇,10%,Read-weighted MPNN+ReadAux Beam,0.923,0.994,0.619
+1000训练簇/300测试簇,20%,Read-weighted Count Beam,0.488,0.956,4.813
+1000训练簇/300测试簇,20%,Read-weighted MPNN Beam,0.883,0.976,2.589
+1000训练簇/300测试簇,20%,Read-weighted MPNN+ReadAux Beam,0.883,0.976,2.589
+1000训练簇/300测试簇,30%,Read-weighted Count Beam,0.555,0.952,5.251
+1000训练簇/300测试簇,30%,Read-weighted MPNN Beam,0.839,0.973,2.950
+1000训练簇/300测试簇,30%,Read-weighted MPNN+ReadAux Beam,0.846,0.976,2.659

@@ -1,0 +1,9 @@
+﻿contamination_rate,method,samples,sequence_recovery_rate,base_recovery_rate,avg_edit_distance,avg_nodes,avg_edges
+0.4,Read-weighted Count Beam,50,0.58,0.9130909090909092,9.56,104.18,305.88
+0.4,Read-weighted Count Greedy,50,0.52,0.8681818181818183,14.5,104.18,305.88
+0.4,Read-weighted MPNN Beam,50,0.82,0.9492727272727273,5.58,104.18,305.88
+0.4,Read-weighted MPNN Uncertainty Beam,50,0.82,0.9492727272727273,5.58,104.18,305.88
+0.4,Read-weighted MPNN+ReadAux Beam,50,0.8,0.9490909090909091,5.6,104.18,305.88
+0.4,Read-weighted MPNN+ReadAux Uncertainty Beam,50,0.8,0.9490909090909091,5.6,104.18,305.88
+0.4,Unweighted Count Beam,50,0.34,0.9305454545454545,7.64,149.26,437.0
+0.4,Unweighted Count Greedy,50,0.22,0.7959999999999999,22.44,149.26,437.0

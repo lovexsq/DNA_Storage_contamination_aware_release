@@ -1,0 +1,68 @@
+{
+  "dataset": "Microsoft Clustered Nanopore Reads (CNR)",
+  "dataset_url": "https://github.com/microsoft/clustered-nanopore-reads-dataset",
+  "args": {
+    "raw_dir": "data/raw/clustered-nanopore-reads-dataset",
+    "train_clusters": 1000,
+    "val_clusters": 150,
+    "test_clusters": 300,
+    "load_buffer": 1000,
+    "real_min_reads": 20,
+    "real_max_reads_per_cluster": 20,
+    "sim_clusters_per_coverage": 24,
+    "sim_coverages": [
+      10,
+      20,
+      30
+    ],
+    "sim_contamination_rate": 0.2,
+    "train_contamination_rates": [
+      0.05,
+      0.1,
+      0.2,
+      0.3
+    ],
+    "val_contamination_rate": 0.2,
+    "test_contamination_rates": [
+      0.0,
+      0.05,
+      0.1,
+      0.2,
+      0.3
+    ],
+    "contamination_mode": "replace",
+    "k_values": [
+      11,
+      13,
+      15
+    ],
+    "primary_k": 13,
+    "threshold": 2,
+    "indel_aware": true,
+    "max_indel_shift": 3,
+    "pretrain_epochs": 3,
+    "finetune_epochs": 3,
+    "hidden_dim": 128,
+    "layers": 6,
+    "heads": 4,
+    "lr": 0.001,
+    "finetune_lr": 0.0005,
+    "weight_decay": 0.0001,
+    "mc_passes": 8,
+    "aux_weight": 0.3,
+    "seed": 42,
+    "device": "cpu",
+    "results_dir": "results/contamination_aware_train1000_test300_with_clean",
+    "checkpoint_dir": "checkpoints/contamination_aware_train1000_test300_with_clean",
+    "skip_no_aux_model": false,
+    "skip_aux_model": false
+  },
+  "loaded_real_clusters": 2450,
+  "usable_complete_clusters": 2447,
+  "train_clusters": 1000,
+  "val_clusters": 150,
+  "test_clusters": 300,
+  "train_graphs": 11969,
+  "val_graphs": 449,
+  "elapsed_seconds": 9076.167831420898
+}

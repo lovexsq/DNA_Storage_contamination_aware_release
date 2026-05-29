@@ -1,0 +1,6 @@
+﻿污染率,Unweighted Count Beam,Read-weighted Count Beam,Read-weighted MPNN Beam,Read-weighted MPNN+ReadAux Beam
+0%,4.573,3.632,0.595,0.582
+5%,4.007,4.385,0.963,0.967
+10%,4.657,4.963,1.060,0.823
+20%,3.953,5.207,2.338,2.522
+30%,7.602,4.171,2.819,2.321

@@ -1,0 +1,64 @@
+Building simulated contaminated pretraining graphs...
+Loading up to 2450 real CNR clusters...
+sim_graphs=185 train_graphs=11969 val_graphs=449 test_clusters=300
+Training read-weighted Edge-aware MPNN without auxiliary loss...
+[mpnn] epoch 01 train_loss=0.0185 val_f1=0.9840 val_read_f1=0.0000 val_srr=0.5769
+[mpnn] epoch 02 train_loss=0.0132 val_f1=0.9840 val_read_f1=0.0000 val_srr=0.5769
+[mpnn] epoch 03 train_loss=0.0093 val_f1=0.9840 val_read_f1=0.0000 val_srr=0.6154
+[mpnn] epoch 01 train_loss=0.0086 val_f1=0.9856 val_read_f1=0.0000 val_srr=0.8352
+[mpnn] epoch 02 train_loss=0.0068 val_f1=0.9864 val_read_f1=0.0000 val_srr=0.8374
+[mpnn] epoch 03 train_loss=0.0060 val_f1=0.9877 val_read_f1=0.0000 val_srr=0.8463
+Training read-weighted Edge-aware MPNN with read auxiliary loss...
+[mpnn] epoch 01 train_loss=0.3265 val_f1=0.9840 val_read_f1=0.7838 val_srr=0.5769
+[mpnn] epoch 02 train_loss=0.2507 val_f1=0.9840 val_read_f1=0.7492 val_srr=0.5769
+[mpnn] epoch 03 train_loss=0.1759 val_f1=0.9832 val_read_f1=0.7468 val_srr=0.6154
+[mpnn] epoch 01 train_loss=0.0193 val_f1=0.9848 val_read_f1=0.9964 val_srr=0.8352
+[mpnn] epoch 02 train_loss=0.0078 val_f1=0.9881 val_read_f1=0.9983 val_srr=0.8396
+[mpnn] epoch 03 train_loss=0.0068 val_f1=0.9862 val_read_f1=0.9983 val_srr=0.8508
+Evaluating contamination rate 0.00...
+Evaluating contamination rate 0.05...
+Evaluating contamination rate 0.10...
+Evaluating contamination rate 0.20...
+Evaluating contamination rate 0.30...
+Method summary:
+rate=0.00 Read-weighted Count Beam: SRR=0.415, BRR=0.967, AvgED=3.632
+rate=0.00 Read-weighted Count Greedy: SRR=0.274, BRR=0.845, AvgED=17.060
+rate=0.00 Read-weighted MPNN Beam: SRR=0.916, BRR=0.995, AvgED=0.595
+rate=0.00 Read-weighted MPNN Uncertainty Beam: SRR=0.920, BRR=0.995, AvgED=0.592
+rate=0.00 Read-weighted MPNN+ReadAux Beam: SRR=0.926, BRR=0.995, AvgED=0.582
+rate=0.00 Read-weighted MPNN+ReadAux Uncertainty Beam: SRR=0.926, BRR=0.995, AvgED=0.582
+rate=0.00 Unweighted Count Beam: SRR=0.180, BRR=0.958, AvgED=4.573
+rate=0.00 Unweighted Count Greedy: SRR=0.053, BRR=0.707, AvgED=32.197
+rate=0.05 Read-weighted Count Beam: SRR=0.415, BRR=0.960, AvgED=4.385
+rate=0.05 Read-weighted Count Greedy: SRR=0.294, BRR=0.860, AvgED=15.401
+rate=0.05 Read-weighted MPNN Beam: SRR=0.913, BRR=0.991, AvgED=0.963
+rate=0.05 Read-weighted MPNN Uncertainty Beam: SRR=0.913, BRR=0.991, AvgED=0.963
+rate=0.05 Read-weighted MPNN+ReadAux Beam: SRR=0.913, BRR=0.991, AvgED=0.967
+rate=0.05 Read-weighted MPNN+ReadAux Uncertainty Beam: SRR=0.913, BRR=0.991, AvgED=0.980
+rate=0.05 Unweighted Count Beam: SRR=0.200, BRR=0.964, AvgED=4.007
+rate=0.05 Unweighted Count Greedy: SRR=0.057, BRR=0.704, AvgED=32.527
+rate=0.10 Read-weighted Count Beam: SRR=0.465, BRR=0.955, AvgED=4.963
+rate=0.10 Read-weighted Count Greedy: SRR=0.334, BRR=0.854, AvgED=16.074
+rate=0.10 Read-weighted MPNN Beam: SRR=0.930, BRR=0.990, AvgED=1.060
+rate=0.10 Read-weighted MPNN Uncertainty Beam: SRR=0.930, BRR=0.993, AvgED=0.816
+rate=0.10 Read-weighted MPNN+ReadAux Beam: SRR=0.923, BRR=0.993, AvgED=0.823
+rate=0.10 Read-weighted MPNN+ReadAux Uncertainty Beam: SRR=0.923, BRR=0.990, AvgED=1.067
+rate=0.10 Unweighted Count Beam: SRR=0.233, BRR=0.958, AvgED=4.657
+rate=0.10 Unweighted Count Greedy: SRR=0.080, BRR=0.732, AvgED=29.457
+rate=0.20 Read-weighted Count Beam: SRR=0.498, BRR=0.953, AvgED=5.207
+rate=0.20 Read-weighted Count Greedy: SRR=0.368, BRR=0.864, AvgED=15.007
+rate=0.20 Read-weighted MPNN Beam: SRR=0.880, BRR=0.979, AvgED=2.338
+rate=0.20 Read-weighted MPNN Uncertainty Beam: SRR=0.873, BRR=0.979, AvgED=2.274
+rate=0.20 Read-weighted MPNN+ReadAux Beam: SRR=0.876, BRR=0.977, AvgED=2.522
+rate=0.20 Read-weighted MPNN+ReadAux Uncertainty Beam: SRR=0.876, BRR=0.976, AvgED=2.615
+rate=0.20 Unweighted Count Beam: SRR=0.263, BRR=0.964, AvgED=3.953
+rate=0.20 Unweighted Count Greedy: SRR=0.100, BRR=0.751, AvgED=27.400
+rate=0.30 Read-weighted Count Beam: SRR=0.538, BRR=0.962, AvgED=4.171
+rate=0.30 Read-weighted Count Greedy: SRR=0.452, BRR=0.895, AvgED=11.559
+rate=0.30 Read-weighted MPNN Beam: SRR=0.856, BRR=0.974, AvgED=2.819
+rate=0.30 Read-weighted MPNN Uncertainty Beam: SRR=0.846, BRR=0.976, AvgED=2.649
+rate=0.30 Read-weighted MPNN+ReadAux Beam: SRR=0.856, BRR=0.979, AvgED=2.321
+rate=0.30 Read-weighted MPNN+ReadAux Uncertainty Beam: SRR=0.856, BRR=0.977, AvgED=2.575
+rate=0.30 Unweighted Count Beam: SRR=0.291, BRR=0.931, AvgED=7.602
+rate=0.30 Unweighted Count Greedy: SRR=0.134, BRR=0.743, AvgED=28.294
+Elapsed minutes: 151.3
