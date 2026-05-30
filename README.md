@@ -47,6 +47,8 @@
 
 ## 环境配置
 
+已验证的 Python 版本：`Python 3.12.13`。
+
 Windows PowerShell：
 
 ```powershell
